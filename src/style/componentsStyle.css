@@ -1,0 +1,97 @@
+* {
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CreateProductForm */
+
+.product-list {
+    margin: 15px;
+}
+
+.product-list form {
+    margin: 10px 0;
+}
+
+.product-list input {
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 0 10px 0 0;
+}
+
+.product-list input:focus::placeholder {
+    color: transparent;
+}
+
+.product-button {
+    color: #fff;
+    background-color: #328c32;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.product-button:active {
+    padding: 9px 10px 7px 10px;
+}
+
+/* ProductItem */
+
+.product-update input{
+    border: 1px solid #333;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin: 0 10px 0 0;
+}
+
+/* DropdownMenu */
+
+.menu {
+    margin: 10px;
+    width: 350px;
+}
+
+.drop-menu-btn {
+    display: flex;
+    color: #000000;
+    padding: 8px 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #c9c9c9;
+}
+
+.product-category {
+    display: flex;
+    background-color: #e7e7e7;
+    padding: 10px 20px;
+}
+
+.drop-menu {
+    display: flex;
+}
+
+.selected-category {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 1px solid #838383;
+    background-color: #d9d9d9;
+}
+
+/*.selected-category:after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    width: 15px;*/
+/*    height: 15px;*/
+/*    background-color: #707070;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+

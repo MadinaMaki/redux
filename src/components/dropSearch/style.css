@@ -1,0 +1,19 @@
+.main {
+    margin: 15px;
+    width: 300px;
+}
+
+.dropDown {
+    border: 1px solid #20c462;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #808080;
+}
+
+.search {
+    padding: 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #999;
+}
